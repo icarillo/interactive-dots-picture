@@ -1,4 +1,4 @@
-
+(() => {
     // setting each dot as object
     const Dot = function (xPos, yPos, color){
         // setting a variable to store "this"(the object in scope) to make it more easy to access along the code and make the code more readable
@@ -306,3 +306,4 @@
     const canvas = document.getElementById("my-canvas");
     const oCanvas = new Canvas(canvas);
     oCanvas.init();
+})();
